@@ -12,6 +12,6 @@ https://ersnrosario.github.io/cpnt260-a4/
 
 I locally hosted the image and I used the <linear-gradient> on my css: line 12.
 
-### Assets
+### Attributions
 
 Background image from Pexels: https://www.pexels.com/photo/two-ice-cream-cups-1362534/
