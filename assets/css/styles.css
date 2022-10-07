@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Permanent Marker', cursive;
+}
+
+/*positioning and gradient for hero img*/
+header{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgb(255, 122, 150),rgba(0, 0, 0, 0.256)),url("../hero-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-size: cover;
+  padding-bottom:50px
+
+}
+
+/*positioning container*/
+.contain{
+  width: 90%;
+  height: 100%;
+  max-width: 40ch;
+
+  /*flex*/
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*size, font, color, and position for h1*/
+
+.contain .text h1{
+  margin-bottom:1rem;
+  font-size:7rem;
+  color: #7B3F00;
+}
+/*sizing and positioning for h2*/
+.contain .text h2{
+  margin-bottom: 1rem;
+
+  /*fonts*/
+  font-size: 2rem;
+  color: #f4eded;
+}
+
+/*size and position h2 and cta*/
+.contain .text p{  
+  max-width: 40ch;
+  
+  /*fonts*/
+  line-height: 1.3rem;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+/*sizing, positioning and styling for CTA*/
+.contain .text a{
+  display: inline-block; 
+  border-radius: 5px;
+  padding: .3em .5em;
+  margin-top: 2rem;
+  transition: all 0.4s ease 0s;
+
+  border: 4px solid #FFFFFF; 
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+
+/*Hover state for CTA*/
+.contain .text a:hover{
+  background-color: #91c2cd; 
+  border-color: #FF9999;
+  color: black;
+
+  transition: all 0.7s ease 0.5s;
+}
+
+@media only screen and (max-width: 650px){
+  html{
+    font-size: 10px;
+  }
+}
